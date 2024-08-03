@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booknow</title>
+        <body>
+            <form>
+                <h2 align="center"><u>Booking Details</u></h2>
+                <table>
+                    <tr>
+                        <td><label>First name:</label></td>
+                    <td><input type="text"name="fname"pattern="[A-Z a-z]{30}"maxlength="30">(max 30 chars)</td>
+                    </tr>
+                    <tr>
+                    <td><label>Last name:</label></td>
+                    <td><input type="text"name="lname"pattern="[A-Z a-z]{30}"maxlength="30">(max 30 chars)</td>
+                    </tr>
+                    <tr>
+                        <td><label>Arrival date:</label></td>
+                    <td><input type="date"name="dob"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label></td>
+                    <td><input type="email"name="eid"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Mobile Number:</label></td>
+                    <td><input type="tel"name="mob"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender:</label></td>
+                    <td><input type="radio"name="gender"value="male">male
+                    <input type="radio"name="gender"value="male">female</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <form>
+                            <label for="room">Room type:</label>
+                            <td>
+                                <select name="room"id="room">
+                                    <option value="female">female</option>
+                                    <option value="male">male</option>
+                                    <option value="couple">couple</option>
+                                                            </select>
+                            </td>
+                           
+                        </form>
+                    </td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td><label>City:</label></td>
+                    <td><input type="text"name="city"></td>
+                    </tr><tr>
+                        <td><label>pincode:</label></td>
+                    <td><input type="number"name="pc"></td>
+                    </tr>
+                    <tr>
+                        <td><label>State:</label></td>
+                    <td><input type="text"name="state"></td>
+                    </tr>
+                    <td><button>submit</button>
+                    
+                    </td>
+                    
+                    </table>
+            </form>
+        </body>
+        </title>
+    </head>
+</html>
